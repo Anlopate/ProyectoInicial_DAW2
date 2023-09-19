@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="estilo_formulario.css">
 </head>
 <body>
+    <!--Creo cabecera con foto. En la pantalla del portatil la foto queda centrada, en una pantalla más grande no. No sé arreglar eso.-->
     <header>
-        <div id="cabecera">
+        <div class="cabecera">
             <img src=".\assets\Cabecera_apadrina2.gif" class="foto">
         </div>
     </header>
     <main>
+        <!--Creo una pequeña tabla para hacer el menú de navegación insertando los enlaces a la misma web.-->
         <div class="menu">
             <table class="tabla1">
                 <tr class="fila1">
@@ -23,6 +25,7 @@
                 </td>
                 </table>
         </div>
+        <!--Creo un formulario del cual los datos se envian a la tabla de registro de socios.-->
         <div class="formulario">
             <table id="tabla2">
                 <br><fieldset><legend>Registro de socios</legend>
@@ -43,11 +46,10 @@
                 </fieldset>
             </table>
         </div>
+        <!--Creo una tabla donde se registran los socios con su nuevo número de socio asignado. Introduzco dos socios fijos para ver que la función de javascript funciona correctamente al asignar número de socio-->
         <div class="relacion">
             <fieldset><legend>Listado de socios</legend>
             <table id="listado">
-                <!--<caption>Listado de socios</caption>!-->
-                
                     <tr class="datos">
                         <td>Nombre</td>
                         <td>DNI</td>
@@ -71,8 +73,24 @@
                     </tr>
                 </fieldset>
             </table>
-        
         </div>
+        <footer>
+            <table class="tabla3">
+            <tr>
+                <td>
+                    <h3 class="ong">ONG Apadrina2</h3>
+                    <p>Proyecto desarrollo zonas marginadas de Perú.<br>
+                    Calle soledad nº 12<br>
+                    11720 Cádiz<br>
+                    email:apadrina2@apadrina.org<br>
+                    TLF 956256987<br></p>
+                </td>
+                <td class="imagen">
+                    <img src="assets/Chapa Apadrina2.jpg">
+                </td>
+                </tr>
+            </table>
+        </footer>
         <script src="insertar_datos.js"></script>
 </body>
 </html>

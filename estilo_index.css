@@ -1,7 +1,13 @@
-
-#cabecera{
+/*Estilo de cabecera*/
+.cabecera{
     margin-left: 250px;
+    background-color: darkblue;
 }
+header{
+    background-color: darkblue;
+}
+/*Estilo de menu da navegación*/
+/*Utilizo selectores de control de etiquetas y de clases*/
 
 a{
     text-decoration: none;
@@ -9,24 +15,14 @@ a{
     font-size:xx-large;
     color: white; 
 }
-
-nav{
-    float:center; 
-}
-
-nav ul li{
-    list-style: none;
-    margin-left: 50px;
-    padding: 25px 0;
-    float: left;
-}
-
 .tabla1{
-    margin-left: 250px;
+    margin-left: 250px;  
 }
 .fila1{
     background-color:crimson; 
 }
+/*Estilo cuerpo de la página*/
+
 .tabla2{
     margin-left: 250px;
     margin-right: 350px;;
@@ -47,6 +43,7 @@ nav ul li{
     font-size: 18px;
     margin-top: 5px;
 }
+/*Estilo imagen de cuerpo de la página*/
 .pichu{
     width: 400px;
     height: 350px;
@@ -54,5 +51,30 @@ nav ul li{
     border-color: darkblue;
     border-style:groove;
     border-width: 20px;
+    
+}
+
+/*Estilo pie de página*/
+
+footer{
+    background-color: darkblue;
+}
+
+.tabla3{
+    color: white;
+    margin-left: 250px;
+}
+
+.ong{
+    text-shadow: 2px 2px crimson;
+}
+
+.imagen{
+    padding-left: 500px;
+}
+img{
+    border-style: solid;
+    border-color: crimson;
+    border-width: 5px;
     
 }

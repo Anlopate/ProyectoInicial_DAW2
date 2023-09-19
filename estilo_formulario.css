@@ -1,9 +1,15 @@
 
-/*cabecera*/
-#cabecera{
+/*Estilo de cabecera*/
+.cabecera{
     margin-left: 250px;
+    background-color: darkblue;
 }
-/*menú navegación*/
+header{
+    background-color: darkblue;
+}
+
+/*Estilo de menú navegación*/
+/*Utilizo selectores de control de etiquetas y de clases*/
 a{
     text-decoration: none;
     font-family: fantasy;
@@ -26,7 +32,7 @@ nav ul li{
     background-color:crimson; 
 }
 
-/*formulario*/
+/*Estilo del formulario*/
 fieldset{
     margin-left: 250px;
     margin-right: 300px;
@@ -62,7 +68,7 @@ legend{
 submit{
     bottom: 10px, 0;
 }
-/*listado socios*/
+/*Estilo listado socios*/
 #listado {
     margin-left: 20px;
     margin-top: 10px;
@@ -70,19 +76,40 @@ submit{
     border-width: 10;
     width: 95%;  
 }
-td{
+# listado td{
     border-color: crimson;
     border-width: 10;
     border-style: double;
     width: 80px;
 }
-caption{
-    font-family: fantasy;
-    font-size: 30px;
-    margin-left: 5px;
-}
+
 .datos{
     font-family: fantasy;
     font-size: 20px;
+    
+}
+.relacion fieldset{
+    margin-bottom: 5%;
+}
+/*Estilo pie de página*/
+footer{
+    background-color: darkblue;
+}
+
+.tabla3{
+    color: white;
+    margin-left: 250px;
+}
+
+.ong{
+    text-shadow: 2px 2px crimson;
+}
+.imagen{
+    padding-left: 500px;
+}
+img{
+    border-style: solid;
+    border-color: crimson;
+    border-width: 5px;
     
 }
