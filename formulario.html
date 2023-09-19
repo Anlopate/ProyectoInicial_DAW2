@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo_formulario.css">
+</head>
+<body>
+    <header>
+        <div id="cabecera">
+            <img src=".\assets\Cabecera_apadrina2.gif" class="foto">
+        </div>
+    </header>
+    <main>
+        <div class="menu">
+            <table class="tabla1">
+                <tr class="fila1">
+                            <td class="inicio"><a href=".\index.html">Inicio</a></td>
+                            <td class="formu"><a href=".\formulario.html">Formulario</a></td>
+                        </ul>
+                    </nav> 
+                </td>
+                </table>
+        </div>
+        <div class="formulario">
+            <table id="tabla2">
+                <br><fieldset><legend>Registro de socios</legend>
+
+                    <label for="nm" class="nombre" size="40px">Apellidos y nombre</label><br>
+                    <input id="nm" class="nm" type="text"><br>
+
+                    <label for="dn" class="dni">DNI</label><br>
+                    <input id="dn" class="d" type="text"> <br>
+
+                    <label class="fecha" size="20px">Fecha de Nacimiento</label><br>
+                    <input id="fch" class="fch" type="date" size="30px"><br>
+
+                    <label for="drc" class="direccion">Dirección</label><br>
+                    <input id="drc" class="drc" type="text" size="100px"></br>
+
+                    <button id="enviar" size="5" type="submit">Enviar</button>    
+                </fieldset>
+            </table>
+        </div>
+        <div class="relacion">
+            <fieldset><legend>Listado de socios</legend>
+            <table id="listado">
+                <!--<caption>Listado de socios</caption>!-->
+                
+                    <tr class="datos">
+                        <td>Nombre</td>
+                        <td>DNI</td>
+                        <td>Fecha de nacimiento</td>
+                        <td>Dirección</td>
+                        <td>Nº de socio</td>
+                    </tr>
+                    <tr>
+                        <td>Lopez García, Jose</td>
+                        <td>25698741L</td>
+                        <td>18/2/2000</td>
+                        <td>Calle Obispo nº 3, Sevilla</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Sánchez Ramos, Laura</td>
+                        <td>44782233P</td>
+                        <td>23/04/1998</td>
+                        <td>Avd. Marconi nº 15 3ªB, Cádiz</td>
+                        <td>2</td>
+                    </tr>
+                </fieldset>
+            </table>
+        
+        </div>
+        <script src="insertar_datos.js"></script>
+</body>
+</html>

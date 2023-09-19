@@ -1,0 +1,58 @@
+
+#cabecera{
+    margin-left: 250px;
+}
+
+a{
+    text-decoration: none;
+    font-family: fantasy;
+    font-size:xx-large;
+    color: white; 
+}
+
+nav{
+    float:center; 
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+    padding: 25px 0;
+    float: left;
+}
+
+.tabla1{
+    margin-left: 250px;
+}
+.fila1{
+    background-color:crimson; 
+}
+.tabla2{
+    margin-left: 250px;
+    margin-right: 350px;;
+    color: black;
+}
+.fila2 h2{
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 30px; 
+    margin-bottom: 0%;
+}
+.fila3{
+    text-align: center;
+    text-align: justify;
+}
+.parrafo{
+    width: 400px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.pichu{
+    width: 400px;
+    height: 350px;
+    margin-left: 100px;
+    border-color: darkblue;
+    border-style:groove;
+    border-width: 20px;
+    
+}

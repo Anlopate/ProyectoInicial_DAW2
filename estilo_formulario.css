@@ -1,0 +1,88 @@
+
+/*cabecera*/
+#cabecera{
+    margin-left: 250px;
+}
+/*menú navegación*/
+a{
+    text-decoration: none;
+    font-family: fantasy;
+    font-size:xx-large;
+    color: white; 
+}
+nav{
+    float:center; 
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+    padding: 25px 0;
+    float: left;
+}
+.tabla1{
+    margin-left: 250px;
+}
+.fila1{
+    background-color:crimson; 
+}
+
+/*formulario*/
+fieldset{
+    margin-left: 250px;
+    margin-right: 300px;
+    margin-top: 10px;
+    border-width: 5px;
+    border-color: crimson;
+}
+legend{
+    font-family: fantasy;
+    font-size: 30px;
+}
+.nombre,
+.dni,
+.fecha,
+.direccion
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.name,
+.nm,
+.dni,
+.d,
+.fecha,
+.fch,
+.direccion,
+.drc,
+#enviar
+{
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+}
+submit{
+    bottom: 10px, 0;
+}
+/*listado socios*/
+#listado {
+    margin-left: 20px;
+    margin-top: 10px;
+    border-color: crimson;
+    border-width: 10;
+    width: 95%;  
+}
+td{
+    border-color: crimson;
+    border-width: 10;
+    border-style: double;
+    width: 80px;
+}
+caption{
+    font-family: fantasy;
+    font-size: 30px;
+    margin-left: 5px;
+}
+.datos{
+    font-family: fantasy;
+    font-size: 20px;
+    
+}
