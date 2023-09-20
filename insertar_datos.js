@@ -20,6 +20,7 @@ let nombre = document.getElementById("nm");
 let dni = document.getElementById("dn");
 let fecha = document.getElementById("fch");
 let direccion = document.getElementById("drc");
+//let socio = document.getElementById("sco");
 /*Creamos la nueva fila con sus correspondientes celdas las asignamos a nuevas variables*/
 let fila1 = document.createElement("tr");
 let celdaNombre = document.createElement("td");
@@ -31,14 +32,15 @@ let celdaDireccion = document.createElement("td");
 celdaNombre.textContent = nombre.value;
 celdaDni.textContent = dni.value;
 celdaFecha.textContent = fecha.value;
-celdaSocio.textContent = addNumSocio();
 celdaDireccion.textContent = direccion.value;
+celdaSocio.textContent = addNumSocio();
+
 /*A la nueva fila creada añadimos los campos anteriores*/
 fila1.appendChild(celdaNombre);
 fila1.appendChild(celdaDni);
 fila1.appendChild(celdaFecha);
-fila1.appendChild(celdaSocio);
 fila1.appendChild(celdaDireccion);
+fila1.appendChild(celdaSocio);
 /*A nuestra tabla capturada al principio añadimos la nueva fila*/
 tabla.appendChild(fila1);
 
