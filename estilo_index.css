@@ -23,8 +23,17 @@ a{
 }
 /*Estilo cuerpo de la página*/
 
+.texto{
+    background-color:crimson;
+    margin-right: 1200px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+    
+    
+}
 .tabla2{
-    margin-left: 250px;
+    margin-left: 70px;
     margin-right: 350px;;
     color: black;
 }
@@ -33,6 +42,7 @@ a{
     font-weight: lighter;
     font-size: 30px; 
     margin-bottom: 0%;
+    color: white;
 }
 .fila3{
     text-align: center;
@@ -42,12 +52,14 @@ a{
     width: 400px;
     font-size: 18px;
     margin-top: 5px;
+    color:whitesmoke;
 }
 /*Estilo imagen de cuerpo de la página*/
 .pichu{
     width: 400px;
     height: 350px;
     margin-left: 100px;
+    margin-bottom: 50px;
     border-color: darkblue;
     border-style:groove;
     border-width: 20px;
