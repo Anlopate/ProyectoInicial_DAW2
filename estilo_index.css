@@ -24,13 +24,11 @@ a{
 /*Estilo cuerpo de la página*/
 
 .texto{
-    background-color:crimson;
+    
     margin-right: 1200px;
     margin-top: 20px;
     margin-left: 200px;
     margin-bottom: 0px;
-    
-    
 }
 .tabla2{
     margin-left: 70px;
@@ -42,7 +40,7 @@ a{
     font-weight: lighter;
     font-size: 30px; 
     margin-bottom: 0%;
-    color: white;
+    color: black;
 }
 .fila3{
     text-align: center;
@@ -52,7 +50,7 @@ a{
     width: 400px;
     font-size: 18px;
     margin-top: 5px;
-    color:whitesmoke;
+    color: black;
 }
 /*Estilo imagen de cuerpo de la página*/
 .pichu{
